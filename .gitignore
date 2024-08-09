@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+api-dispatcher
+
+# Build directories
+/build/
+bin/
+
+# Go specific
+*.log
+*.test
+*.out
+*.prof
+
+# Vendor directory
+/vendor/
+
+# Dependency directories
+Godeps/
+Gopkg.lock
+Gopkg.toml
+go.sum
+go.mod
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Certificate files (if they are generated or should not be committed)
+cert.pem
+key.pem
+
+# Other files you might want to ignore
+*.env
+.env.local
